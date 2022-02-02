@@ -6,7 +6,7 @@ module.exports = {
   username: process.env.USER,
   password: process.env.PASS,
   database: process.env.DB,
-  port: process.env.PORT,
+  port: process.env.PORTPG,
   define: {
     timestamps: true,
     underscored: true,
